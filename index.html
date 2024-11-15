@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook @Somtogram</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7af60eda19.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!------------------------------NavBar--------------------------------------------------------------------->
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo"> <!--Logo-->
+
+            <ul>
+                <li><img src="images/notification.png" ></li> <!--Icons-->
+                <li><img src="images/inbox.png" ></li> <!--Icons-->
+            </ul>
+        </div>
+        <div class="nav-right">
+
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online " onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+        <!--------------user setting menu------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+
+            <div class="settings-menu-inner">
+
+                <div class="user-profile"> <!--Dropdown menu-->
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Mac Alister</p>
+                        <a href="#">Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Rate Us</a>
+                    </div>
+                </div>
+                <hr>
+                <!--Settings menu-->
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/nightmode.png" class="settings-icon">
+                    <a href="#"> Display & Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </nav>
+
+    <!--------------------------------Container----------------------------------------->
+
+    <div class="container">
+
+        <div class="left-sidebar"> <!--------------------------------left sidebar----------------------->
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png">News Update</a>
+                <a href="#"><img src="images/friend.png">Friends</a>
+                <a href="#"><img src="images/group.png">Group</a>
+                <a href="#"><img src="images/marketplace.png">Marketplace</a>
+                <a href="#"><img src="images/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+
+            <div class="shortcut-links"> <!----------Shortcut links-->
+                <p> Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png">Web Design course </a>
+                <a href="#"><img src="images/shortcut-3.png">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png">Website Experts</a>
+            </div>
+        </div>
+        <!------------------------------Main content------------------------->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story status-1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story status-2">
+                    <img src="images/member-1.png">
+                    <p>Alison</p>
+                </div>
+                <div class="story status-3">
+                    <img src="images/member-2.png">
+                    <p>Victoria</p>
+                </div>
+                <div class="story status-4">
+                    <img src="images/member-3.png">
+                    <p>Israel</p>
+                </div>
+                <div class="story status-5">
+                    <img src="images/member-4.png">
+                    <p>Ayotunde</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+
+                    <div>
+                        <p>Mac Alister</p>
+                        <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+
+
+                </div>
+                <!-------------------- post-------------------------->
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind today?"></textarea>
+
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/video.pntg.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photos/Video</a>
+                        <a href="#"><img src="images/feeling.jpg">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+
+                        <div>
+                            <p>Mac Alister</p>
+                            <span>August 12 2024, 12:30pm</span>
+                        </div>
+
+
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <!-------------------- Post 1-------------------------->
+
+                <p class="post-text"> I'm Super excited to build this project using <span>HTML, CSS and
+                        JavaScript!</span> It's going to be amazing to see everything come together and create a
+                    platform where people can connect and share their thoughts on things. This proces of srarting from
+                    scartch gives me this thrilling joy and i can't wait to launch it &#128640;&#128165; <a
+                        href="#">#WebDevelopment</a>
+                    <a href="#"> &nbsp;#FutureSoftwareDeveloper</a> <a href="#"> &nbsp;#PersonalProject</a> <br>
+
+                </p>
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+
+                        <div><img src="images/like.png">560</div>
+                        <div><img src="images/comment.png">290</div>
+                        <div><img src="images/share.png">150</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-------------------- Post 2-------------------------->
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+
+                        <div>
+                            <p>Mac Alister</p>
+                            <span>August 12 2024, 12:30pm</span>
+                        </div>
+
+
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">
+                    This just a test run &#128640;&#128165; <a href="#"> <br>#WebDevelopment</a>
+                    <a href="#"> &nbsp;#FutureSoftwareDeveloper</a> <a href="#"> &nbsp;#PersonalProject</a> <br>
+
+                </p>
+                <img src="images/status-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+
+                        <div><img src="images/like.png">1.2k</div>
+                        <div><img src="images/comment.png">500</div>
+                        <div><img src="images/share.png">400</div>
+                    </div>
+
+
+
+                    <!-------------------- Post 3-------------------------->
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+
+                        <div>
+                            <p>Mac Alister</p>
+                            <span>August 12 2024, 1:30pm</span>
+                        </div>
+
+
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolor nemo necessitatibus autem
+                    laudantium eos assumenda fuga quae accusantium? Reprehenderit repudiandae temporibus, eum inventore
+                    aliquid optio architecto minus maxime saepe! &#128640;&#128165; <a href="#"> <br>#WebDevelopment</a>
+                    <a href="#"> &nbsp;#FutureSoftwareDeveloper</a> <a href="#"> &nbsp;#PersonalProject</a> <br>
+
+                </p>
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+
+                        <div><img src="images/like.png">2.5k</div>
+                        <div><img src="images/comment.png">1,116</div>
+                        <div><img src="images/share.png">150</div>
+                    </div>
+
+
+                    <!-------------------- Post4-------------------------->
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+
+                        <div>
+                            <p>Mac Alister</p>
+                            <span>August 12 2024, 1:30pm</span>
+                        </div>
+
+
+                    </div>
+                    <a href="#"> <i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+
+                <p class="post-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex temporibus, harum perferendis eum at
+                    illo recusandae dolore enim hic labore quae maxime, culpa illum officia fugiat deleniti. Enim,
+                    eligendi omnis. &#128513; &#128377; <a href="#"> <br>#WebDevelopment</a>
+                    <a href="#"> &nbsp;#FutureSoftwareDeveloper</a> <a href="#"> &nbsp;#PersonalProject</a> <br>
+
+                </p>
+                <img src="images/status-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+
+                        <div><img src="images/like.png">560</div>
+                        <div><img src="images/comment.png">290</div>
+                        <div><img src="images/share.png">150</div>
+                    </div>
+
+
+
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png"> <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-----------------Load more butn--------------->
+            <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+
+
+
+
+
+        <!-------------------------------------------right sidebar---------------------->
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>15 </h3>
+                    <span>July</span>
+                </div>
+                <div class="right-event">
+                    <h4> NACOS</h4>
+                    <p> <i class="fa-sharp fa-solid fa-location-dot"></i> Trinity University Campus.</p>
+                    <a href="#">More info</a>
+                </div>
+
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>24</h3>
+                    <span>August</span>
+                </div>
+                <div class="right-event">
+                    <h4>Tech Fest</h4>
+                    <p> <i class="fa-sharp fa-solid fa-location-dot"></i> Trinity University Campus.</p>
+                    <a href="#">More info</a>
+                </div>
+
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisment.png" class="sidebar-ads">
+
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>Alison Becker</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png">
+                </div>
+                <p> Victoria Neuman</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png">
+                </div>
+                <p>Israel Cincinatti</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.png">
+                </div>
+                <p>Ayotunde Bami</p>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-----------------------------Footer--------------------------------->
+    <div class="footer">
+        <p>Copyright 2024 - Somtogram &#128521;</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
